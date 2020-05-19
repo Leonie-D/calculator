@@ -1,0 +1,26 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss --output-style compressed --source-map true -o css",
+    "prefix": "postcss css/style.css --use autoprefixer -o css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonie-D/calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonie-D/calculator/issues"
+  },
+  "homepage": "https://github.com/Leonie-D/calculator#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "node-sass": "^4.13.1",
+    "postcss-cli": "^7.1.0",
+    "browserslist": "last 4 versions"
+  }
+}

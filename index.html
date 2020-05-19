@@ -3,19 +3,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="affichage">
-            <p id="resultat">25</p>
+            <p id="resultat"></p>
         </div>
         <div class="groupe touches-fonction">
-            <button class="btn fonction">C</button>
-            <button class="btn fonction">MC</button>
-            <button class="btn fonction">M+</button>
-            <button class="btn fonction">M-</button>
-            <button class="btn fonction">MR</button>
+            <button class="btn fonction" id="C">C</button>
+            <button class="btn fonction" id="CA">CA</button>  
+            <button class="btn fonction" id="CE">CE</button> 
+            <button class="btn on-off">ON</button>
+            <button class="btn fonction" id="MC">MC</button>
+            <button class="btn fonction" id="MP">M+</button>
+            <button class="btn fonction" id="MM">M-</button>
+            <button class="btn fonction" id="MR">MR</button>
         </div>
         <div class="groupe touches-nombre">
             <button class="btn number">9</button>
@@ -32,21 +35,19 @@
             <button class="btn number">.</button>
         </div>
         <div class="groupe touches-operation">
-            <button class="btn operation">-</button>
-            <button class="btn operation">=</button>
-            <button class="btn operation">+</button>
-            <button class="btn operation">x</button>
-            <button class="btn operation">/</button>
-            <button class="btn operation">&#247</button>
-            <button class="btn operation">%</button>
-            <button class="btn operation">&#8730</button>
-        </div>
-        <div class="groupe touches-fonction-bis">
-            <button class="btn fonction">C</button> 
-            <button class="btn fonction">CA</button> 
-            <button class="btn on-off">ON</button>
-            <!--js changera on en off et inversement-->
+            <button class="btn operation" id="parentheseO">(</button>
+            <button class="btn operation" id = "parentheseF">)</button>
+            <button class="btn operation" id="pourcentage">%</button>
+            <button class="btn operation" id="racine">&#8730</button>
+            <button class="btn operation" id="division">/</button>
+            <button class="btn operation" id="modulo">&#247</button>
+            <button class="btn operation" id="multiplication">x</button>
+            <button class="btn operation" id="soustraction">-</button>
+            <button class="btn operation" id="addition">+</button>
+            <button class="btn operation" id= "total">=</button>
         </div>
     </div>
+
+    <script src="js/test.js"></script>
 </body>
 </html>
