@@ -111,20 +111,6 @@ body {
     }
 }
 
-.operation {
-    background: #fcad26;
-	color: hsl(38, 73%, 40%);
-    box-shadow: 0 .6rem #da9622;
-
-    &:hover,
-    &:focus {
-        box-shadow: 0 .4rem #da9622;
-    }
-
-    &:active {
-        box-shadow: 0 0 #da9622;
-    }
-}
 
 .fonction {
     background: green;
@@ -140,6 +126,21 @@ body {
         box-shadow: 0 0 #226fbe;
     }
 }
+.operation {
+    background: #fcad26;
+	color: hsl(38, 73%, 40%);
+    box-shadow: 0 .6rem #da9622;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 .4rem #da9622;
+    }
+
+    &:active {
+        box-shadow: 0 0 #da9622;
+    }
+}
+
 
 .on-off {
     background: #cb4e4e;
